@@ -1,3 +1,10 @@
+# Project GEPARD V5.0 Codebase
+
+This repository contains the software, firmware, and architecture for **Project GEPARD** (Ground EV Perception and Autonomous Routing Dock), an autonomous UGV built for the Element14 EZ-EV Smart Transportation Challenge.
+
+## System Architecture & Wiring Matrix
+
+```mermaid
 flowchart TD
   subgraph PowerMatrix ["WAGO Solderless Distribution"]
     BATT["11.3V 3S Battery"] -->|"11.3V RAW"| W_11V(("11.3V Bus"))
